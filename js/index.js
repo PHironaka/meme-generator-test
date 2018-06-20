@@ -58,7 +58,7 @@ onload = function() {
   const canvas = document.getElementById('canvas');
   const ctx = canvas.getContext('2d');
   drawBackgroundImage(canvas, ctx);
-  const saltImage = drawSalt('http://res.cloudinary.com/dlwnmz6lr/image/upload/v1526005050/chadwick-boseman-inspired-workout-program-wide_phczey.webp', canvas, ctx);
+  const saltImage = drawSalt('/images/voltage_emoji_icon_png_hwdaps.png', canvas, ctx);
 const input = document.querySelector("input[type='file']");
   /*
    * Add event listener to the input to listen for changes to its selected
